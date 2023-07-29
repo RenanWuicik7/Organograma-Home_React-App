@@ -1,0 +1,53 @@
+.titulo-times-section {
+    color: #6278F7;
+    text-align: center;
+    font-family: Prata;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    margin: 0;
+}
+
+.titulo-times-section ~ aside {
+    width: 64px;
+    height: 4px;
+    background: #6278F7;
+    margin: 1rem auto 3em;
+}
+
+.time {
+    text-align: center;
+    padding: 32px;
+}
+
+.time h3 {
+    font-family: Prata;
+    font-size: 32px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+}
+
+.time aside {
+    width: 50px;
+    height: 4px;
+    margin: .7rem auto .5rem;
+}
+
+.time .colaboradores {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 500px) {
+    .time .colaboradores {
+        display: block;
+    }
+
+    .time div {
+        width: auto;
+    }
+}
