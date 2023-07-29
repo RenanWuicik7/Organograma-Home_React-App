@@ -1,4 +1,7 @@
-<<<<<<< HEAD
+## About
+
+> Esse repositório contém minha primeira aplicação feita com React, ela é uma página de Organograma da Empresa Alura, mas ela não contém nenhum colaborador, ela somente tem a capacidade de adicionar colaboradores através do preenchimento do formulário.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
