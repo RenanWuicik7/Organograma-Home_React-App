@@ -12,6 +12,8 @@ const Time = (props) => {
 
     return (
         props.colaboradores.length > 0 && <>
+            {/* <h1 className="titulo-times-section">Minha Organização:</h1>
+            <aside></aside> */}
             <section className='time' style={ css }>
                 <h3>{props.nome}</h3>
                 <aside style={ cssAside }></aside>
